@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Geometric Langlands via Hecke-Eigensheaf Persistence"
+message: "If you use this workspace, cite the manuscript and theorem notes."
+type: software
+authors:
+  - name: "HautevilleHouse"
+date-released: 2026-03-11
+repository-code: "https://github.com/HautevilleHouse/geometric-langlands-canonical-lane"
+url: "https://github.com/HautevilleHouse/geometric-langlands-canonical-lane"
+keywords:
+  - geometric-langlands
+  - representation-theory
+  - algebraic-geometry
+  - sheaf-theory
+  - hecke-eigensheaves
+  - mathematical-proof
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Geometric Langlands via Hecke-Eigensheaf Persistence"
+  authors:
+    - name: "HautevilleHouse"
+  date: 2026-03-11

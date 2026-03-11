@@ -1,0 +1,53 @@
+{
+  "constants": {
+    "eigensheaf_transfer": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 6.2 / Appendix E.4; raw=1.0315400000000001, ref=1.0, formula=c_eig_raw * transfer_gain_raw - e_eig_raw",
+      "source": "artifacts/constants_extracted.json#eigensheaf_transfer",
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0315400000000001
+    },
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GEOMETRIC_LANGLANDS_PREPRINT.md Appendix E.6; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 5.3 / Appendix C; raw=0.8038585209003215, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8038585209003215
+    },
+    "kappa_hecke": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 4.5 / Appendix A; raw=1.0932, ref=1.0, formula=c_hecke_raw * sheaf_density_raw - e_hecke_raw",
+      "source": "artifacts/constants_extracted.json#kappa_hecke",
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0932
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 6.1 / Appendix D; raw=1.078, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.078
+    },
+    "sigma_local": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 5.2 / Appendix B; raw=1.0750000000000002, ref=1.0, formula=local_floor_raw - satake_loss_raw - restart_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_local",
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0750000000000002
+    }
+  },
+  "updated_at_utc": "2026-03-11T23:36:02Z"
+}

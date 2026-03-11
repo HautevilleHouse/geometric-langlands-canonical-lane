@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "eigensheaf_transfer": {
+      "components": {
+        "c_eig_raw": 1.118,
+        "e_eig_raw": 0.12,
+        "transfer_gain_raw": 1.03
+      },
+      "formula": "c_eig_raw * transfer_gain_raw - e_eig_raw",
+      "normalized_value": 1.0315400000000001,
+      "notes": "eigensheaf_transfer theorem-level floor.",
+      "raw_value": 1.0315400000000001,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.244
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8038585209003215,
+      "notes": "kappa_compact theorem-level floor.",
+      "raw_value": 0.8038585209003215,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_hecke": {
+      "components": {
+        "c_hecke_raw": 1.45,
+        "e_hecke_raw": 0.235,
+        "sheaf_density_raw": 0.916
+      },
+      "formula": "c_hecke_raw * sheaf_density_raw - e_hecke_raw",
+      "normalized_value": 1.0932,
+      "notes": "kappa_hecke theorem-level floor.",
+      "raw_value": 1.0932,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.078
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.078,
+      "notes": "rho_rigidity theorem-level floor.",
+      "raw_value": 1.078,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_local": {
+      "components": {
+        "local_floor_raw": 1.391,
+        "restart_loss_raw": 0.148,
+        "satake_loss_raw": 0.168
+      },
+      "formula": "local_floor_raw - satake_loss_raw - restart_loss_raw",
+      "normalized_value": 1.0750000000000002,
+      "notes": "sigma_local theorem-level floor.",
+      "raw_value": 1.0750000000000002,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "geometric_langlands",
+  "generated_utc": "2026-03-11T23:36:02Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "0201b02e630d00163ce6a73f4509231ae0a6c959ef607d99bd40267df7be9e60",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.054
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.054,
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "raw_value": 1.054,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GEOMETRIC_LANGLANDS_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}

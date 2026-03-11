@@ -1,0 +1,19 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "geometric_langlands",
+  "generated_utc": "2026-03-11T23:36:02Z",
+  "promoted_constants": {
+    "eigensheaf_transfer": 1.0315400000000001,
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8038585209003215,
+    "kappa_hecke": 1.0932,
+    "rho_rigidity": 1.078,
+    "sigma_local": 1.0750000000000002
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.054
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}
